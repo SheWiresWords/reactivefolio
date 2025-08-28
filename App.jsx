@@ -1,10 +1,10 @@
 import './App.css'
 export default function App(){
-  return (                 
+  return (                            
     <div className="app">
       <header className="header">
         <div className="nav-left">
-        </div>
+        </div>   
         <div className="logo">
           <span className="logo-text">Portfolio</span>
         </div>  
@@ -256,8 +256,189 @@ export default function App(){
           </div>
         </div>
                
-                           
-      </main>   
-    </div>
+ {/*About Me Section */}
+        <section className="about-me-section">
+          <div className="about-me-grid">
+            <div className="about-me-content">
+              <h2>About Me</h2>
+              <p>
+                I'm a web developer and graphic designer with over 2 years of experience creating beautiful, 
+                functional websites and digital experiences. My journey started with a love for 
+                combining creativity with technology to solve real-world problems.
+              </p>
+              <p>
+                I specialize in modern web design, user experience optimization, and creating 
+                clean illustrations. In every project, I bring ideas alive.
+              </p>
+              <div className="skills-list">
+                <span className="skill-tag">Web Development</span>
+                <span className="skill-tag">UI/UX</span>
+                <span className="skill-tag">Graphic Design</span>
+                <span className="skill-tag">SEO Optimization</span>
+              </div>
+            </div>
+            <div className="about-me-images">
+              <div className="about-image main-image"></div>
+              <div className="about-images-grid">
+                <div className="about-image small-image"></div>
+                <div className="about-image small-image"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Services Section */}
+        <section className="services-section">
+          <h2 className="section-title">What I Create</h2>
+          <div className="services-grid">
+            <div className="service-category">
+              <h3>Personal</h3>
+              <div className="service-items">
+                <div className="service-item">
+                  <span>Website Maintenance</span>
+                  <span className="service-price">From $50/mo</span>
+                </div>
+                <div className="service-item">
+                  <span>Simple Landing Page</span>
+                  <span className="service-price">From $99</span>
+                </div>
+                <div className="service-item">
+                  <span>Single Page Portfolios</span>
+                  <span className="service-price">From $299</span>
+                </div>
+                <div className="service-item">
+                  <span>Multipage Websites</span>
+                  <span className="service-price">From $499</span>
+                </div>
+                
+                
+              </div>
+            </div>
+            <div className="service-category">
+              <h3>Businesses / Organizations</h3>
+              <div className="service-items">
+                <div className="service-item">
+                  <span>Website Maintenance</span>
+                  <span className="service-price">From $100/mo</span>
+                </div>
+                <div className="service-item">
+                  <span>One-Page Business Site</span>
+                  <span className="service-price">From $399</span>
+                </div>
+                <div className="service-item">
+                  <span>Multipage Business Site</span>
+                  <span className="service-price">From $599</span>
+                </div>
+                <div className="service-item">
+                  <span>Wordpress Site</span>
+                  <span className="service-price">From $999</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Image Gallery Section */}
+        <section className="homepage-gallery-section">
+          <h2 className="section-title">Recent Work</h2>
+          <div className="homepage-gallery-grid">
+            <div className="gallery-item">
+              <div className="gallery-image portfolio-preview">
+                <div className="gallery-overlay">
+                  <span className="gallery-title">Portfolio Website</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image education-preview">
+                <div className="gallery-overlay">
+                  <span className="gallery-title">Educational Platform</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image ecommerce-preview">
+                <div className="gallery-overlay">
+                  <span className="gallery-title">E-Commerce Store</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image restaurant-preview">
+                <div className="gallery-overlay">
+                  <span className="gallery-title">Restaurant Website</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image agency-preview">
+                <div className="gallery-overlay">
+                  <span className="gallery-title">Creative Agency</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image web-app-preview">
+                <div className="gallery-overlay">
+                  <span className="gallery-title">Web Application</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="gallery-cta">
+            <button 
+              className="view-all-btn"
+              onClick={() => setCurrentPage('gallery')}
+            >
+              View All Projects →
+            </button>
+          </div>         
+        </section> 
+      
+        {/* Contact Section */}
+        <section className="contact-section">
+          <div className="contact-content">
+            <div className="contact-info">
+              <h2>Contact Me</h2>
+              <p>
+                Ready to start your next project? I'd love to hear from you. I will respond to email in 1-2 business days.
+              </p>
+              <div className="contact-details">
+                <div className="contact-item">
+                  <span className="contact-icon">📧</span>
+                  <span>hello@designstudio.com</span>
+                </div>
+                <div className="contact-item">
+                  <span className="contact-icon">📍</span>
+                  <span>Houston, TX</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+        {/* Footer */}
+        <footer className="footer">
+          <div className="footer-content">
+            <div className="footer-left">
+              <div className="logo-text">Alexa</div>
+              <p>Creating beautiful digital experiences</p>
+            </div>
+            <div className="footer-links">
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
+            </div>
+          <div className="footer-bottom">
+            <p>&copy; 2024 DesignStudio. All rights reserved.</p>
+          </div>
+          </div>
+        </footer>
+      </main>    
+    </div>   
+  )     
+}    
   )      
 }
