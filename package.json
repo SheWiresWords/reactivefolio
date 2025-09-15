@@ -3,7 +3,7 @@
   "homepage": "https://shewireswords.github.io/reactivefolio/",
   "version": "0.0.0",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "React TypeScript on Github",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
