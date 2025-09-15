@@ -434,7 +434,7 @@ export default function App() {
             <div className="about-me-images">
               <div className="about-image main-image">
                 <img
-                  src="/reactivefolio/designer.png"
+                  src="/designer.jpg"
                   alt="Photo of cat, in place of the developer"
                   style={{
                     width: "100%",
