@@ -18,8 +18,8 @@ export default function Gallery(){
         {id: 2, src: "/Project Pictures/portfolio2.png", alt: "Portfolio About Page"},
         {id: 3, src: "/Project Pictures/portfolio3.png", alt: "Portfolio Projects Page"},
         {id: 4, src: "/Project Pictures/portfolio5.png", alt: "Portfolio Contact Page"},
-        {id: 5, src: "public/Project Pictures/portfolio6.png", alt: "Portfolio Contact Page"},
-         {id: 6, src: "public/Project Pictures/portfolio7.png", alt: "Portfolio Contact Page"}
+        {id: 5, src: "/Project Pictures/portfolio6.png", alt: "Portfolio Contact Page"},
+         {id: 6, src: "/Project Pictures/portfolio7.png", alt: "Portfolio Contact Page"}
       ]                            
     },  
     {         

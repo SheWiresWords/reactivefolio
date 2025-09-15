@@ -59,9 +59,9 @@ export default function App() {
         "Take a look at this site I've created for a technology literacy initiative, in partnership with 6+ youth-led nonprofits.",
       thumbnail: "education",
       images: [
-        { id: 1, src: "public/Project Pictures/edutitle.png" },
-        { id: 2, src: "public/Project Pictures/edugame3.png" },
-        { id: 3, src: "public/Project Pictures/edugame4.png" },
+        { id: 1, src: "/Project Pictures/edutitle.png" },
+        { id: 2, src: "/Project Pictures/edugame3.png" },
+        { id: 3, src: "/Project Pictures/edugame4.png" },
       ],
     },
     {
@@ -72,8 +72,8 @@ export default function App() {
         "Created recycling tracker for student volunteers. Easy to use progress dashboard that lets users customize their experience.",
       thumbnail: "presentation",
       images: [
-        { id: 1, src: "public/Project Pictures/tracker1.png" },
-        { id: 2, src: "public/Project Pictures/tracker2.png" },
+        { id: 1, src: "/Project Pictures/tracker1.png" },
+        { id: 2, src: "/Project Pictures/tracker2.png" },
       ],
     },
   ];
@@ -144,7 +144,7 @@ export default function App() {
                   <div className="template-header">Beautiful Websites</div>
                   <div className="template-body">
                     <img
-                      src="public/Project Pictures/zzz.png"
+                      src="/Project Pictures/zzz.png"
                       style={{
                         objectFit: "cover",
                         borderRadius: "8px",
@@ -159,7 +159,7 @@ export default function App() {
                 <div className="template-content">
                   <div className="template-header">Interactive Apps</div>
                   <div className="template-body">
-                    {/* <img src="public/Project Pictures/game2.png" style={{width:"100%", height:"100%", objectFit:"cover"}}/> */}
+                    {/* <img src="/Project Pictures/game2.png" style={{width:"100%", height:"100%", objectFit:"cover"}}/> */}
                   </div>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export default function App() {
                   <div className="template-header">Graphic Design</div>
                   <div className="template-body">
                     <img
-                      src="public/logo.svg"
+                      src="/logo.svg"
                       style={{
                         width: "100%",
                         height: "100%",
@@ -368,7 +368,7 @@ export default function App() {
               <div className="template-card">
                 <div className="template-image">
                   <img
-                    src="public/Project Pictures/tracker1.png"
+                    src="/Project Pictures/tracker1.png"
                     alt="Educational Site"
                     style={{
                       width: "100%",
