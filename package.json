@@ -1,6 +1,6 @@
 {
   "name": "reactivefolio",
-  "homepage": "https://SheWiresWords.github.io/reactivefolio/",
+  "homepage": "https://shewireswords.github.io/reactivefolio/",
   "version": "0.0.0",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
@@ -18,12 +18,10 @@
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
-  },
-  "dependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
